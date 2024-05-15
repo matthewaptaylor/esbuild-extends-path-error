@@ -1,0 +1,17 @@
+{
+  "eslint.workingDirectories": [
+    { "pattern": "project/apps/*/" },
+    { "pattern": "project/packages/*/" },
+    { "pattern": "project/tooling/*/" }
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "files.associations": {
+    "*.json.hbs": "jsonc"
+  }
+}
