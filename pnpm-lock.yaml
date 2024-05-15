@@ -25,10 +25,6 @@ importers:
         version: 5.4.5
 
   apps/client:
-    dependencies:
-      '@repo/shared':
-        specifier: workspace:*
-        version: link:../../packages/shared
     devDependencies:
       '@repo/eslint-config':
         specifier: workspace:*
@@ -42,27 +38,6 @@ importers:
       '@types/node':
         specifier: ^20.12.5
         version: 20.12.12
-      eslint:
-        specifier: ^8.56.0
-        version: 8.57.0
-      prettier:
-        specifier: ^3.2.5
-        version: 3.2.5
-      typescript:
-        specifier: ^5.4.5
-        version: 5.4.5
-
-  packages/shared:
-    devDependencies:
-      '@repo/eslint-config':
-        specifier: workspace:*
-        version: link:../../tooling/eslint
-      '@repo/prettier-config':
-        specifier: workspace:*
-        version: link:../../tooling/prettier
-      '@repo/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/typescript
       eslint:
         specifier: ^8.56.0
         version: 8.57.0
@@ -118,8 +93,6 @@ importers:
       typescript:
         specifier: ^5.4.5
         version: 5.4.5
-
-  tooling/github: {}
 
   tooling/prettier:
     dependencies:

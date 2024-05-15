@@ -27,7 +27,7 @@
 
     /** Package Path Aliases */
     "paths": {
-      "~shared/*": ["../../packages/shared/src/*"]
+      "~/*": ["../../apps/client/src/*"]
     }
   },
   "exclude": ["node_modules", "dist"]

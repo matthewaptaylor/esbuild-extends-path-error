@@ -1,3 +1,3 @@
-import { foo } from "@repo/shared";
+import { foo } from "~/foo";
 
 console.log(foo);

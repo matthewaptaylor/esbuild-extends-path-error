@@ -12,9 +12,6 @@
     "lint": "eslint",
     "typecheck": "tsc --noEmit"
   },
-  "dependencies": {
-    "@repo/shared": "workspace:*"
-  },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/prettier-config": "workspace:*",
